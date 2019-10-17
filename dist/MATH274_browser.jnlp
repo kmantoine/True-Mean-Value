@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MATH274_browser.jnlp">
+  <information>
+    <title>MATH274</title>
+    <vendor>Miguel</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MATH274.jar" size="18836" download="eager" />
+    <jar href="lib/commons-math3-3.6.1-javadoc.jar" size="6840211" download="eager" />
+    <jar href="lib/commons-math3-3.6.1-sources.jar" size="2514690" download="eager" />
+    <jar href="lib/commons-math3-3.6.1.jar" size="2213560" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="TrueMeanValue.TrueMeanValueUI"  name="MATH274" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>

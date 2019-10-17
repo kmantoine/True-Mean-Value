@@ -1,0 +1,48 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'MATH274.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJNQVRIMjc0LmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5NQVRIMjc0PC90aXRsZT4KICAgIDx2ZW5kb3I+TWlndWVsPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9Ik1BVEgyNzQuamFyIiBzaXplPSIxODgzNiIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvY29tbW9ucy1tYXRoMy0zLjYuMS1qYXZhZG9jLmphciIgc2l6ZT0iNjg0MDIxMSIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvY29tbW9ucy1tYXRoMy0zLjYuMS1zb3VyY2VzLmphciIgc2l6ZT0iMjUxNDY5MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvY29tbW9ucy1tYXRoMy0zLjYuMS5qYXIiIHNpemU9IjIyMTM1NjAiIGRvd25sb2FkPSJlYWdlciIgLz4KICA8L3Jlc291cmNlcz4KICA8YXBwbGljYXRpb24tZGVzYyBtYWluLWNsYXNzPSJUcnVlTWVhblZhbHVlLlRydWVNZWFuVmFsdWVVSSIgIG5hbWU9Ik1BVEgyNzQiID4KICA8L2FwcGxpY2F0aW9uLWRlc2M+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedTrueMeanValue() {
+        dtjava.embed(
+            {
+                id : 'TrueMeanValue',
+                toolkit : 'swing',
+                url : 'MATH274_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJNQVRIMjc0X2Jyb3dzZXIuam5scCI+CiAgPGluZm9ybWF0aW9uPgogICAgPHRpdGxlPk1BVEgyNzQ8L3RpdGxlPgogICAgPHZlbmRvcj5NaWd1ZWw8L3ZlbmRvcj4KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4KICAgIDxvZmZsaW5lLWFsbG93ZWQvPgogIDwvaW5mb3JtYXRpb24+CiAgPHJlc291cmNlcz4KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4KICAgIDxqYXIgaHJlZj0iTUFUSDI3NC5qYXIiIHNpemU9IjE4ODM2IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9jb21tb25zLW1hdGgzLTMuNi4xLWphdmFkb2MuamFyIiBzaXplPSI2ODQwMjExIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9jb21tb25zLW1hdGgzLTMuNi4xLXNvdXJjZXMuamFyIiBzaXplPSIyNTE0NjkwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9jb21tb25zLW1hdGgzLTMuNi4xLmphciIgc2l6ZT0iMjIxMzU2MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogIDwvcmVzb3VyY2VzPgogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9IlRydWVNZWFuVmFsdWUuVHJ1ZU1lYW5WYWx1ZVVJIiAgbmFtZT0iTUFUSDI3NCIgPgogIDwvYXBwbGV0LWRlc2M+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedTrueMeanValue);
+</script>
+
+</head><body>
+<h2>Test page for <b>MATH274</b></h2>
+  <b>Webstart:</b> <a href='MATH274.jnlp' onclick="return launchApplication('MATH274.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
